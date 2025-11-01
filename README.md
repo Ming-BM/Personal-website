@@ -1,16 +1,134 @@
-# React + Vite
+# Mingda Bi - Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive portfolio website built with React and Tailwind CSS.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 🎨 Modern UI with Tailwind CSS
+- 📱 Fully responsive design
+- ⚡ Fast performance with Vite
+- 🧩 Modular component architecture
+- 🎯 Smooth scrolling navigation
+- 💼 Project showcase
+- 📧 Contact section
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Framework**: React 18
+- **Build Tool**: Vite
+- **Styling**: Tailwind CSS v4
+- **Deployment**: Vercel
 
-## Expanding the ESLint configuration
+## Project Structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```
+src/
+├── components/
+│   ├── layout/         # Navigation, Footer
+│   ├── sections/       # Hero, About, Skills, Projects, Experience, Contact
+│   ├── ui/            # Reusable UI components (Cards, Titles)
+│   └── icons/         # SVG icons
+├── data/              # Data files (skills, projects, experience, contact)
+└── App.jsx            # Main application component
+```
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js 18+ and npm
+
+### Installation
+
+1. Clone the repository
+```bash
+git clone <your-repo-url>
+cd portfolio-react
+```
+
+2. Install dependencies
+```bash
+npm install
+```
+
+3. Start the development server
+```bash
+npm run dev
+```
+
+4. Open your browser and visit `http://localhost:5173`
+
+## Building for Production
+
+```bash
+npm run build
+```
+
+The build output will be in the `dist/` directory.
+
+## Deployment
+
+### Deploy to Vercel
+
+1. Install Vercel CLI (if not already installed):
+```bash
+npm install -g vercel
+```
+
+2. Login to Vercel:
+```bash
+vercel login
+```
+
+3. Deploy:
+```bash
+vercel
+```
+
+For production deployment:
+```bash
+vercel --prod
+```
+
+### Deploy to GitHub Pages
+
+1. Install gh-pages:
+```bash
+npm install -D gh-pages
+```
+
+2. Add to package.json scripts:
+```json
+"predeploy": "npm run build",
+"deploy": "gh-pages -d dist"
+```
+
+3. Deploy:
+```bash
+npm run deploy
+```
+
+## Customization
+
+### Update Personal Information
+
+Edit the data files in `src/data/`:
+- `contact.js` - Contact information and about section
+- `skills.js` - Technical skills
+- `projects.js` - Project portfolio
+- `experience.js` - Work experience
+
+### Modify Styling
+
+The project uses Tailwind CSS. You can customize:
+- Colors in component files (currently using blue-500/purple-600 gradient)
+- Spacing and layout in component JSX
+- Global styles in `src/index.css`
+
+## License
+
+© 2025 Mingda Bi. All rights reserved.
+
+## Built With
+
+🤖 Generated with [Claude Code](https://claude.com/claude-code)
