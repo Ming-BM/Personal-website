@@ -4,11 +4,11 @@ export default function Navigation() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   const navLinks = [
-    { href: '#about', label: '关于' },
-    { href: '#skills', label: '技能' },
-    { href: '#projects', label: '项目' },
-    { href: '#experience', label: '经历' },
-    { href: '#contact', label: '联系' }
+    { href: '#about', label: 'About' },
+    { href: '#skills', label: 'Skills' },
+    { href: '#projects', label: 'Projects' },
+    { href: '#experience', label: 'Experience' },
+    { href: '#contact', label: 'Contact' }
   ];
 
   const handleLinkClick = () => {

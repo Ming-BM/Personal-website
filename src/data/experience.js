@@ -1,34 +1,34 @@
 export const experienceData = [
   {
     id: 1,
-    title: "LED 系统技术员",
+    title: "LED System Technician",
     company: "LED-PRO TECH",
     location: "Mississauga, ON",
-    period: "2024年11月 - 至今",
+    period: "November 2024 - Present",
     current: true,
     responsibilities: [
-      "负责 LED 显示系统的安装、配置和调试，确保硬件和控制器在多个客户现场的最佳性能和校准",
-      "对硬件、软件和网络连接问题进行技术故障排除，通过系统诊断程序减少系统停机时间",
-      "更新控制器固件并优化系统配置，提高显示性能并满足特定场地要求",
-      "提供终端用户培训并创建技术文档（包括快速入门指南和配置记录），以促进知识传递并减少支持请求",
-      "与销售和运营团队协作进行现场勘察和项目实施，确保符合安全协议和技术规范"
+      "Install, configure, and calibrate LED display systems, ensuring optimal hardware and controller performance across multiple client sites",
+      "Perform technical troubleshooting for hardware, software, and network connectivity issues, minimizing system downtime through systematic diagnostics",
+      "Update controller firmware and optimize system configurations to enhance display performance and meet site-specific requirements",
+      "Provide end-user training and create technical documentation (quick-start guides, configuration logs) to facilitate knowledge transfer and reduce support requests",
+      "Collaborate with sales and operations teams on site surveys and project implementations, ensuring compliance with safety protocols and technical specifications"
     ],
-    tags: ["系统配置", "故障排除", "技术文档", "网络诊断"]
+    tags: ["System Configuration", "Troubleshooting", "Technical Documentation", "Network Diagnostics"]
   },
   {
     id: 2,
-    title: "运营主管 - 水处理设施",
-    company: "北京排水集团 - 槐房水务再生厂",
-    location: "北京，中国",
-    period: "2016年8月 - 2023年7月",
+    title: "Operations Supervisor - Water Treatment Facility",
+    company: "Beijing Drainage Group - Huaifang Water Reclamation Plant",
+    location: "Beijing, China",
+    period: "August 2016 - July 2023",
     current: false,
     responsibilities: [
-      "在高风险监管环境中协调跨职能团队并管理日常运营，展现出对 IT 基础设施支持角色至关重要的强大人际交往和沟通技能",
-      "使用 SCADA 系统和性能指标监控和分析运营数据，支持决策制定并确保系统可靠性——直接适用于监控 IT 基础设施和遥测系统",
-      "应用项目管理工具和方法论来规划、跟踪和交付运营改进，获得项目协调和时间表管理经验",
-      "为管理层和利益相关者准备全面的技术报告和运营文档，培养强大的技术写作技能",
-      "在 7×24 小时关键基础设施环境中开发系统化的问题解决和故障排除方法，培养可直接转移到 IT 系统支持的技能"
+      "Coordinated cross-functional teams and managed daily operations in a high-stakes regulatory environment, demonstrating strong interpersonal and communication skills essential for IT infrastructure support roles",
+      "Monitored and analyzed operational data using SCADA systems and performance metrics to support decision-making and ensure system reliability—directly applicable to monitoring IT infrastructure and telemetry systems",
+      "Applied project management tools and methodologies to plan, track, and deliver operational improvements, gaining experience in project coordination and timeline management",
+      "Prepared comprehensive technical reports and operational documentation for management and stakeholders, developing strong technical writing skills",
+      "Developed systematic problem-solving and troubleshooting approaches in a 24/7 critical infrastructure environment, cultivating skills directly transferable to IT system support"
     ],
-    tags: ["SCADA 系统", "数据分析", "项目管理", "团队协作", "技术文档"]
+    tags: ["SCADA Systems", "Data Analysis", "Project Management", "Team Collaboration", "Technical Documentation"]
   }
 ];

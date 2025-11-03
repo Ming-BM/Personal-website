@@ -10,13 +10,13 @@ export default function Hero() {
             <span className="text-blue-500 text-lg font-mono">const developer = {'{'}</span>
           </div>
           <h1 className="text-5xl md:text-7xl font-bold">
-            你好，我是{' '}
+            Hi, I'm{' '}
             <span className="bg-gradient-to-r from-blue-500 to-purple-600 bg-clip-text text-transparent">
               Mingda Bi
             </span>
           </h1>
           <p className="text-xl md:text-2xl text-gray-400 max-w-2xl mx-auto">
-            软件工程专业学生 | 云计算 & 全栈开发 | 系统管理
+            Software Engineering Student | Cloud Computing & Full-Stack Development | Systems Administration
           </p>
           <div className="inline-block">
             <span className="text-blue-500 text-lg font-mono">{'}'}</span>
@@ -26,13 +26,13 @@ export default function Hero() {
               href="#projects"
               className="bg-blue-500 hover:bg-blue-600 text-white px-8 py-3 rounded-lg font-medium transition transform hover:scale-105"
             >
-              查看项目
+              View Projects
             </a>
             <a
               href="#contact"
               className="border border-blue-500 text-blue-500 hover:bg-blue-500 hover:text-white px-8 py-3 rounded-lg font-medium transition"
             >
-              联系我
+              Contact Me
             </a>
           </div>
           <div className="flex justify-center space-x-6 pt-8">
