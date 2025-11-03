@@ -1,56 +1,20 @@
 export const projectsData = [
   {
     id: 1,
-    title: "Cloud Infrastructure Manager",
-    description: "AWS-based automated infrastructure deployment tool supporting EC2, S3, and other resource configuration management",
+    title: "Personal website",
+    description: "A modern, responsive personal portfolio website built with React and Tailwind CSS. Features a clean dark theme design, smooth animations, and component-based architecture for easy content management.",
     gradient: "from-blue-500 to-purple-600",
     icon: "cloud",
-    technologies: ["Python", "AWS", "Bash"],
-    github: "https://github.com/Ming-BM"
+    technologies: ["React", "Vite", "Tailwind","JavaScript"],
+    github: "https://github.com/Ming-BM/Personal-website.git"
   },
   {
     id: 2,
-    title: "Enterprise Task Management System",
-    description: "Full-stack task management platform with user authentication, task assignment, and progress tracking features",
+    title: "Steam game recommendations(building)",
+    description: "Steam Game Recommender is a Python-based desktop application that integrates with Steam's official API to provide intelligent game recommendations. The application enables users to filter Steam games based on multiple criteria including genre, price range, and user ratings, while retrieving real-time game details, pricing, reviews, and ratings. This project demonstrates core software development skills including API integration, data processing, GUI development, and user interaction design.",
     gradient: "from-green-500 to-teal-600",
     icon: "clipboard",
-    technologies: ["Java", "Spring Boot", "MongoDB"],
-    github: "https://github.com/Ming-BM"
-  },
-  {
-    id: 3,
-    title: "Network Monitoring Dashboard",
-    description: "Real-time network performance monitoring tool that visualizes network traffic and system health status",
-    gradient: "from-orange-500 to-red-600",
-    icon: "chart",
-    technologies: ["Python", "JavaScript", "SQL"],
-    github: "https://github.com/Ming-BM"
-  },
-  {
-    id: 4,
-    title: "Data Analysis Toolkit",
-    description: "Automated data processing and visualization tool supporting multiple data sources and chart types",
-    gradient: "from-purple-500 to-pink-600",
-    icon: "analytics",
-    technologies: ["Python", "SQL", "MongoDB"],
-    github: "https://github.com/Ming-BM"
-  },
-  {
-    id: 5,
-    title: "Cross-Platform Mobile App",
-    description: "Hybrid mobile application supporting iOS and Android with smooth user experience",
-    gradient: "from-cyan-500 to-blue-600",
-    icon: "mobile",
-    technologies: ["JavaScript", "React Native", "REST API"],
-    github: "https://github.com/Ming-BM"
-  },
-  {
-    id: 6,
-    title: "Automation Script Collection",
-    description: "System administration and daily task automation scripts to improve work efficiency",
-    gradient: "from-yellow-500 to-orange-600",
-    icon: "lightning",
-    technologies: ["PowerShell", "Bash", "Python"],
+    technologies: ["Python", "API", "GUI"],
     github: "https://github.com/Ming-BM"
   }
 ];

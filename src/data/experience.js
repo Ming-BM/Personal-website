@@ -9,7 +9,6 @@ export const experienceData = [
     responsibilities: [
       "Install, configure, and calibrate LED display systems, ensuring optimal hardware and controller performance across multiple client sites",
       "Perform technical troubleshooting for hardware, software, and network connectivity issues, minimizing system downtime through systematic diagnostics",
-      "Update controller firmware and optimize system configurations to enhance display performance and meet site-specific requirements",
       "Provide end-user training and create technical documentation (quick-start guides, configuration logs) to facilitate knowledge transfer and reduce support requests",
       "Collaborate with sales and operations teams on site surveys and project implementations, ensuring compliance with safety protocols and technical specifications"
     ],

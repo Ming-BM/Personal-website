@@ -8,7 +8,7 @@ export default function Contact() {
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <SectionTitle>Contact Me</SectionTitle>
         <p className="text-xl text-gray-300 mb-12">
-          Interested in my work or want to collaborate? Feel free to reach out!
+          Feel free to reach out!
         </p>
         <div className="grid md:grid-cols-3 gap-8 mb-12">
           <div className="bg-slate-950 p-6 rounded-lg border border-gray-800 hover:border-blue-500 transition">

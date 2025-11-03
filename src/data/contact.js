@@ -17,7 +17,7 @@ export const aboutData = {
   languages: "English, Mandarin, Japanese (N2)",
   description: [
     "I am a Software Development and Network Engineering student at Sheridan College with a 3.75 GPA. I'm passionate about cloud computing, systems administration, and full-stack development.",
-    "Currently working as a System Technician at LED-PRO TECH, where I handle installation, configuration, and technical support for LED display systems. Previously, I served as an Operations Supervisor at Beijing Drainage Group, where I gained extensive experience in system management and team collaboration.",
+    "I used to be an environmental engineer at a water treatment plant. I switched careers to learn coding because of my interest in software technology. Although I only studied coding for one year in school, I had already studied coding knowledge on my own for a long time before that, and I am very confident in my ability to learn new knowledge.",
     "I'm proficient in multiple programming languages including Python, Java, and C#, familiar with AWS/Azure cloud platforms, and skilled in database management and network configuration. I believe in building efficient and reliable technical solutions through continuous learning and hands-on practice."
   ]
 };
