@@ -129,6 +129,4 @@ The project uses Tailwind CSS. You can customize:
 
 © 2025 Mingda Bi. All rights reserved.
 
-## Built With
 
-🤖 Generated with [Claude Code](https://claude.com/claude-code)
