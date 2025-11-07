@@ -10,11 +10,20 @@ export const projectsData = [
   },
   {
     id: 2,
-    title: "Steam game recommendations(building)",
+    title: "Steam game recommendations",
     description: "Steam Game Recommender is a Python-based desktop application that integrates with Steam's official API to provide intelligent game recommendations. The application enables users to filter Steam games based on multiple criteria including genre, price range, and user ratings, while retrieving real-time game details, pricing, reviews, and ratings. This project demonstrates core software development skills including API integration, data processing, GUI development, and user interaction design.",
     gradient: "from-green-500 to-teal-600",
     icon: "clipboard",
     technologies: ["Python", "API", "GUI"],
+    github: "https://github.com/Ming-BM/steam-game-recommendations"
+  },
+  {
+    id: 3,
+    title: "More projects is coming soon",
+    description: "Stay tuned for more exciting projects coming your way!",
+    gradient: "from-green-500 to-teal-600",
+    icon: "lightbulb",
+    technologies: [""],
     github: "https://github.com/Ming-BM"
   }
 ];

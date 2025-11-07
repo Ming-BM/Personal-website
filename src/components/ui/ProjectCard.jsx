@@ -14,9 +14,11 @@ export default function ProjectCard({ title, description, gradient, icon, techno
 
   return (
     <div className="bg-slate-950 rounded-lg overflow-hidden border border-gray-800 hover:border-blue-500 transition group">
-      <div className={`h-48 bg-gradient-to-br ${gradient} relative overflow-hidden`}>
-        <div className="absolute inset-0 flex items-center justify-center">
-          <IconComponent className="w-20 h-20 text-white opacity-50" />
+      <div className="flex items-center justify-center p-6">
+        <div className={`w-20 h-20 bg-gradient-to-br ${gradient} relative overflow-hidden rounded-lg`}>
+          <div className="absolute inset-0 flex items-center justify-center">
+            <IconComponent className="w-10 h-10 text-white opacity-50" />
+          </div>
         </div>
       </div>
       <div className="p-6">
