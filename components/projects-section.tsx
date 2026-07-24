@@ -42,9 +42,10 @@ const projects = [
   {
     title: "Capital Plan Declaration System",
     description:
-      "A web-based fund/capital plan reporting system built for a drainage utility group, enabling departments to submit and manage budget declarations. Backend built with Flask and PostgreSQL, deployed on Render with a Supabase-hosted PostgreSQL database.",
+      "A web-based fund/capital plan reporting system built for a drainage utility group, enabling departments to submit and manage budget declarations. Backend built with Flask and PostgreSQL, deployed on Render with a Supabase-hosted PostgreSQL database. Try the live demo with account: demo / demo2026 (submissions from this account are not saved).",
     tags: ["Python", "Flask", "PostgreSQL", "Supabase", "Render"],
     github: "https://github.com/Ming-BM/Beijingwaterfunds",
+    demo: "https://beijingwaterfunds.onrender.com",
     color: "green",
   },
 ]
@@ -134,6 +135,17 @@ export function ProjectsSection() {
                   <Github />
                   <span className="text-sm">GitHub</span>
                 </a>
+                {project.demo && (
+                  <a
+                    href={project.demo}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center gap-2 text-white/80 hover:text-white transition-colors"
+                  >
+                    <ExternalLink />
+                    <span className="text-sm">Live Demo</span>
+                  </a>
+                )}
               </div>
             </div>
           ))}
