@@ -39,6 +39,14 @@ const projects = [
     github: "https://github.com/Ming-BM/steam-game-recommendations",
     color: "purple",
   },
+  {
+    title: "Capital Plan Declaration System",
+    description:
+      "A web-based fund/capital plan reporting system built for a drainage utility group, enabling departments to submit and manage budget declarations. Backend built with Flask and PostgreSQL, deployed on Render with a Supabase-hosted PostgreSQL database.",
+    tags: ["Python", "Flask", "PostgreSQL", "Supabase", "Render"],
+    github: "https://github.com/Ming-BM/Beijingwaterfunds",
+    color: "green",
+  },
 ]
 
 export function ProjectsSection() {
